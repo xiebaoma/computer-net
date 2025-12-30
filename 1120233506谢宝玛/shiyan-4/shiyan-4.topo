@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.200T">
+    <devices>
+        <dev id="E34C06D3-1EE2-4c8f-855A-989DA186B3B1" name="AR2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-AB-04-51" com_port="2001" bootmode="0" cx="594.000000" cy="281.000000" edit_left="621" edit_top="335">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="7E6EF353-0E9F-4505-B81F-8818CD630641" name="AR3" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-40-63-2D" com_port="2002" bootmode="0" cx="829.000000" cy="286.000000" edit_left="856" edit_top="340">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="A9BA82EC-DFB1-41ce-BC42-439F9778E818" name="LSW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-68-3E-E2" com_port="2003" bootmode="0" cx="348.000000" cy="309.000000" edit_left="375" edit_top="363">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="74107800-8B4E-465b-8357-3A9104E9185F" name="PC2" poe="0" model="PC" settings=" -simpc_ip 10.0.100.20  -simpc_mask 255.255.255.0  -simpc_gateway 10.0.100.1  -simpc_mac 54-89-98-24-3E-48  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-24-3E-48" com_port="0" bootmode="0" cx="457.000000" cy="486.000000" edit_left="484" edit_top="540">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="0CC7B1BA-CBEE-4913-8769-D849D7EBF08A" name="AR1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-74-7C-28" com_port="2000" bootmode="0" cx="455.000000" cy="131.000000" edit_left="482" edit_top="185">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="06CBFF77-72D0-4892-9502-05D9B1812FCF" name="PC1" poe="0" model="PC" settings=" -simpc_ip 10.0.100.10  -simpc_mask 255.255.255.0  -simpc_gateway 10.0.100.1  -simpc_mac 54-89-98-89-15-22  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-89-15-22" com_port="0" bootmode="0" cx="251.000000" cy="475.000000" edit_left="278" edit_top="529">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="0CC7B1BA-CBEE-4913-8769-D849D7EBF08A" destDeviceID="E34C06D3-1EE2-4c8f-855A-989DA186B3B1">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="511.352020" srcBoundRect_Y="189.674850" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="0" tarBoundRect_X="591.647949" tarBoundRect_Y="276.325165" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="E34C06D3-1EE2-4c8f-855A-989DA186B3B1" destDeviceID="7E6EF353-0E9F-4505-B81F-8818CD630641">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="0" srcBoundRect_X="664.174011" srcBoundRect_Y="308.918610" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="2" tarBoundRectIsMoved="0" tarBoundRect_X="812.825989" tarBoundRect_Y="312.081390" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="0CC7B1BA-CBEE-4913-8769-D849D7EBF08A" destDeviceID="A9BA82EC-DFB1-41ce-BC42-439F9778E818">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="459.751556" srcBoundRect_Y="195.011414" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="397.248444" tarBoundRect_Y="298.988586" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="A9BA82EC-DFB1-41ce-BC42-439F9778E818" destDeviceID="06CBFF77-72D0-4892-9502-05D9B1812FCF">
+            <interfacePair lineName="Copper" srcIndex="9" srcBoundRectIsMoved="0" srcBoundRect_X="353.213013" srcBoundRect_Y="373.284912" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="299.786987" tarBoundRect_Y="464.715088" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="A9BA82EC-DFB1-41ce-BC42-439F9778E818" destDeviceID="74107800-8B4E-465b-8357-3A9104E9185F">
+            <interfacePair lineName="Copper" srcIndex="10" srcBoundRectIsMoved="0" srcBoundRect_X="397.644104" srcBoundRect_Y="372.770691" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="461.355896" tarBoundRect_Y="476.229309" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips />
+</topo>
